@@ -4,7 +4,7 @@ Dự án này hướng dẫn cách kết nối và sử dụng các dòng vi đi
 
 ---
 
-## 🛠️ Danh Sách Linh Kiện (BOM)
+## 🛠️ Danh Sách Linh Kiện 
 
 Để thực hiện dự án, bạn cần chuẩn bị các linh kiện sau:
 * **Vi điều khiển:** ESP32-S3, ESP32-C3, hoặc NodeMCU ESP8266.
