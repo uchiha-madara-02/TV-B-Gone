@@ -28,14 +28,14 @@ Dưới đây là hướng dẫn đấu nối cụ thể cho từng loại board
 * **Mạch công suất LED:** Chân dương của LED IR lấy nguồn từ chân **3.3V / 5V** của board mạch thông qua một điện trở hạn dòng **10.0Ω**. Chân âm của LED nối vào cực Phải (Collector) của Transistor. Cực Trái (Emitter) của Transistor nối về **GND**.
 
 ### 2. Phiên bản sử dụng ESP32-C3
-![Sơ đồ ESP32-C3](image_425a13.jpg)
+|<img src="./Screenshot 2025-12-25 231016.png" width="450">|
 
 **Mô tả kết nối cho ESP32-C3:**
 * **Chân phát tín hiệu:** Đối với board ESP32-C3, tín hiệu điều khiển được xuất ra từ chân **GPIO 21** (chân màu xanh lá trên sơ đồ). Tương tự như trên, tín hiệu này đi qua điện trở **100Ω** để kích hoạt chân Base của Transistor 2N2222.
 * **Mạch công suất LED:** Giữ nguyên nguyên lý nối mạch tải. Cấp nguồn **3.3V / 5V** qua điện trở **10.0Ω** vào cực dương LED. Cực âm LED nối vào chân Collector của Transistor. Chân Emitter của Transistor nối với **GND** để hoàn thành mạch kín.
 
 ### 3. Phiên bản sử dụng ESP8266 (Kèm Nút Nhấn)
-![Sơ đồ ESP8266](image_424f29.jpg)
+|<img src="./Screenshot 2025-12-25 230710.png" width="450">|
 
 **Mô tả kết nối cho ESP8266 & Nút nhấn:**
 * **Chân phát tín hiệu:** Mạch sử dụng chân **D5 (GPIO 14)** (dây màu xanh dương) để xuất tín hiệu IR. Tín hiệu qua điện trở **100Ω** vào chân Base của Transistor 2N2222. Mạch tải của LED IR lắp tương tự như hai phiên bản trên.
