@@ -1,4 +1,4 @@
-# 🛰️ Bộ Phát Tín Hiệu Hồng Ngoại (IR) với ESP32 / ESP8266
+# 🛰️ TV-B-GONE [ESP32 / ESP8266]
 
 Dự án này hướng dẫn cách kết nối và sử dụng các dòng vi điều khiển (ESP32-S3, ESP32-C3, ESP8266) để điều khiển một đèn LED hồng ngoại (IR) công suất cao. Hệ thống sử dụng Transistor 2N2222 làm mạch đệm khuếch đại dòng điện và một nút nhấn để điều khiển linh hoạt việc phát tín hiệu.
 
