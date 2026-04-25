@@ -21,7 +21,7 @@ Dự án này hướng dẫn cách kết nối và sử dụng các dòng vi đi
 Dưới đây là hướng dẫn đấu nối cụ thể cho từng loại board mạch mà bạn có thể sử dụng.
 
 ### 1. Phiên bản sử dụng ESP32-S3
-![Sơ đồ ESP32-S3](image_425a17.jpg)
+![Sơ đồ ESP32-S3](<img src="./Screenshot 2025-12-25 231053.png" width="450">)
 
 **Mô tả kết nối cho ESP32-S3:**
 * **Chân phát tín hiệu:** Khối vi điều khiển sử dụng chân **GPIO 9** (chân màu xanh đậm trên sơ đồ). Chân này xuất tín hiệu, đi qua điện trở bảo vệ **100Ω** và kết nối vào chân giữa (chân Base) của Transistor 2N2222.
