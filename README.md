@@ -48,7 +48,7 @@ Dưới đây là hướng dẫn đấu nối cụ thể cho từng loại board
 Hệ thống được lập trình để phản hồi lại các thao tác từ người dùng thông qua nút nhấn (như được thể hiện trong sơ đồ thứ 3):
 
 * **Nhấn 1 lần (Single Click):** * Bắt đầu gửi mã IR. 
-  * Nếu hệ thống đang trong quá trình gửi mã mà bạn nhấn 1 lần nữa, hệ thống sẽ **Tạm dừng (Pause)** việc gửi mã.
+  * Nếu hệ thống đang trong quá trình gửi mã mà bạn nhấn 1 lần nữa, hệ thống sẽ **Tạm dừng (Pause)** việc gửi mã (thời gian gửi hết mã của bản cũ là 15p, bản mới (v3) là 5p).
 * **Nhấn 2 lần (Double Click):** * Bất kể hệ thống đang ở trạng thái nào (đang gửi hoặc đang tạm dừng), thao tác này sẽ ép hệ thống **Bắt đầu gửi lại mã từ đầu (Restart)**.
 
 ---
