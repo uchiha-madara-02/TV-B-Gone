@@ -28,6 +28,9 @@ Dưới đây là hướng dẫn đấu nối cụ thể cho từng loại board
 * **Mạch công suất LED:** Chân dương của LED IR lấy nguồn từ chân **3.3V / 5V** của board mạch thông qua một điện trở hạn dòng **10.0Ω**. Chân âm của LED nối vào cực Phải (Collector) của Transistor. Cực Trái (Emitter) của Transistor nối về **GND**.
 
 ### 2. Phiên bản sử dụng ESP32-C3
+*LƯU Ý: Đây là phiên bản cho tv b gone v3
+|<img src="./TV_B_GONE_V3.png" width="450">|
+*Đây là phiên bản thường
 |<img src="./Screenshot 2025-12-25 231016.png" width="450">|
 
 **Mô tả kết nối cho ESP32-C3:**
